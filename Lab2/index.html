@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> First page </title>
+    <meta name="description" content="page description here"/>
+    <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style type="text/css">
+        Body{
+            color:red;
+        }
+    </style>
+
+    <script>
+        function myFunction()
+        {
+            var x= document.getElementById("fname");
+            x.value=x.value.toUpperCase();
+        }
+    </script>
+</head>
+<body>
+    <p>This is a Html docs.<br>Line break</p>
+    This javascript capitalize my name:
+    <p>Enter name:<input type="text" id="fname" onchange="myFunction()"></p>
+    <p>Password: <input type="text"></p>
+
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>EMAIL</th>
+            <th>IMAGE</th>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td>Name:</td>
+            <td><input type="text" placeholder="Enter Name"></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="password" placeholder="Enter Password"></td>
+        </tr>
+
+        <tr>
+            <td>Gender</td>
+            <td><input type="radio" name="Gender" value="Male">
+            </td>
+            <td> <input type="radio" name="Gender" value="Female"></td>
+
+        </tr>
+        <tr>
+            <td>Date of Birth</td>
+            <td> <input type="Date"></td>
+        </tr>
+        <tr>
+            <td>File</td>
+            <td><input type="file"></td>
+        </tr>
+
+    </table>
+
+      <p>This is my Page.Click it <a href="/new.html">My Page</a></p>
+
+      <img src=""
+</body>
+</html>
