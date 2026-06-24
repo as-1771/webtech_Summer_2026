@@ -1,0 +1,48 @@
+body{
+    background-color:White;
+}
+#mainh{
+   text-align: center;
+}
+#para{
+    text-align: left;
+}
+#subh{
+    text-align: center;
+}
+#tab{
+    border-color: black;
+    color:white
+}
+#heading{
+    background-color: midnightblue;
+    color:white
+}
+
+#r1{
+    background-color:cornflowerblue
+    
+}
+span{
+    color:red
+}
+#rbox {
+    background-color:chartreuse;
+    border-radius: 10px;
+     margin-top: 30px;
+    padding: 20px;
+    width: fit-content;
+    margin: 30px auto;
+}
+input[type="text"] {
+    border-color: white;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+button {
+    border-color: white;
+    border-radius: 8px;
+    padding: 8px 16px;
+    margin-top: 10px;
+}
